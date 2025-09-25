@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+    float principal, rate, time;
+
+    printf("Input 1:\n");
+    scanf("%f %f %f", &principal, &rate, &time);
+
+    float simple = (principal * rate * time) / 100;
+
+    float amount = principal * pow((1 + rate / 100), time);
+    float compound = amount - principal;
+
+    printf("Output 1:\n");
+    printf("Simple Interest=%.2f, Compound Interest=%.2f\n", simple, compound);
+
+    return 0;
+}
+---------------------------------------------------------------------------------------------
+Input 1:
+1000 5 2
+Output 1:
+Simple Interest=100, Compound Interest=102.5
+
+Input 2:
+5000 7 3
+Output 2:
+Simple Interest=1050, Compound Interest=1125.76
+
+*/
