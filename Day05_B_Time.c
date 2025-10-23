@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-\\Write a program to input two numbers and display their sum, difference, product, and quotient
+\\Write a program to input time in seconds and convert it to hours:minutes:seconds format
     
 int main()
  {
