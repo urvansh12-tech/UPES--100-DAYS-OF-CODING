@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-int main() {
+\\Write a program to find and display the sum of the first n natural numbers
+
+int main()
+ {
     int n, i, sum = 0;
 
     printf("Enter a positive integer (n): ");
@@ -18,16 +21,4 @@ int main() {
 
     return 0;
 }
--------------------------------------------------------------------------------------------------
 
-Input 1:
-5
-Output 1:
-Sum=15
-
-Input 2:
-10
-Output 2:
-Sum=55
-
-*/
