@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-int main() {
+\\Write a program to input two numbers and display their sum, difference, product, and quotient
+    
+int main()
+ {
     int seconds, hours, minutes;
 
     printf("Input 1:\n");
@@ -16,15 +19,4 @@ int main() {
 
     return 0;
 }
----------------------------------------------------------------------
-Input 1:
-3661
-Output 1:
-1:1:1
 
-Input 2:
-7322
-Output 2:
-2:2:2
-
-*/
