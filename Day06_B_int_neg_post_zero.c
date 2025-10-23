@@ -6,11 +6,9 @@ int main()
  {
     int num;
 
-    // Input an integer
     printf("Enter an integer: ");
     scanf("%d", &num);
 
-    // Check whether the number is positive, negative or zero
     if (num >= 0) {
         if (num == 0)
             printf("Zero\n");
